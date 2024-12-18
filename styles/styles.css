@@ -44,7 +44,7 @@
 
 .title h1 {
     color: white;
-    font-size: 110px;
+    font-size: 140px;
     font-family: "Jersey 10", serif;
     font-weight: 400;
     font-style: normal;
@@ -61,8 +61,8 @@
 }
 
 .buttonJuego {
-    width: 180px;
-    height: 50px;
+    width: 234px;
+    height: 75px;
     background-color: #FF9797;
     color: #FFFFFF;
     font-weight: bold;
@@ -70,7 +70,7 @@
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 32px;
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #000;
@@ -89,15 +89,15 @@
 }
 
 .buttonInfo {
-    width: 300px;
-    height: 80px;
+    width: 377px;
+    height: 104px;
     background-color: #A5D8B0;
     color: #FFFFFF;
     font-weight: bold;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 32px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     border: none;
     border-radius: 5px;
@@ -118,7 +118,7 @@
 }
 
 .dark {
-    width: 90px;
+    width: 110px;
     transition: all 0.3s ease;
     cursor: pointer;
     opacity: 0.8;
