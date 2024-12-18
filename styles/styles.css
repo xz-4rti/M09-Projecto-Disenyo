@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-image: url('https://img.freepik.com/free-photo/retro-computer-desk-arrangement_23-2150118622.jpg?t=st=1734371715~exp=1734375315~hmac=a644379c98d22d6364ac2ad43c48171ec8f91eb1d5a6833bddedde6443ed48a2&w=996');
+    background-image: url('../img/backgroundd.jpg');
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -13,9 +13,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    /* Make the container a positioned element */
     overflow: hidden;
-    /* Ensure the overlay stays within bounds */
 }
 
 .container::before {
@@ -27,18 +25,14 @@
     height: 100%;
     background-color: white;
     opacity: 0.3;
-    /* Adjust this value for desired whiteness */
     z-index: 1;
-    /* Place the overlay behind content */
 }
 
 .title,
 .buttons {
     position: relative;
-    /* Ensure content appears above the overlay */
     z-index: 2;
 }
-
 
 .title {
     width: 35vw;
@@ -56,8 +50,6 @@
     font-style: normal;
     text-shadow: -10px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
-
 
 .buttons {
     display: flex;

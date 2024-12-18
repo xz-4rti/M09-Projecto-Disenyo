@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-image: url('https://img.freepik.com/free-photo/retro-computer-desk-arrangement_23-2150118622.jpg?t=st=1734371715~exp=1734375315~hmac=a644379c98d22d6364ac2ad43c48171ec8f91eb1d5a6833bddedde6443ed48a2&w=996');
+    background-image: url('../img/backgroundd.jpg');
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -43,16 +43,12 @@
 }
 
 .title h1 {
-    color: black; /* Title text color */
+    color: black;
     font-size: 110px;
     font-family: "Jersey 10", serif;
     font-weight: 400;
     font-style: normal;
-    text-shadow: 
-        -2px -2px 3px #fff, 
-        2px -2px 3px #fff, 
-        -2px 2px 3px #fff, 
-        2px 2px 3px #fff; /* White stroke with slight shadow */
+    text-shadow: -5px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 .buttons {
@@ -67,14 +63,14 @@
 .buttonJuego {
     width: 180px;
     height: 50px;
-    background-color: #5B0202; /* Button color */
-    color: #000000; /* Text color */
+    background-color: #5B0202;
+    color: #000000;
     font-weight: bold;
-    text-shadow: 
-        -1px -1px 0 #fff, 
-        1px -1px 0 #fff, 
-        -1px 1px 0 #fff, 
-        1px 1px 0 #fff; /* White text stroke effect */
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     border: none;
@@ -85,7 +81,7 @@
 }
 
 .buttonJuego:hover {
-    background-color: #A42424; /* Hover color */
+    background-color: #A42424;
     transform: scale(1.05);
 }
 
@@ -97,14 +93,14 @@
 .buttonInfo {
     width: 300px;
     height: 80px;
-    background-color: #1C3522; /* Button color */
-    color: #000000; /* Text color */
+    background-color: #1C3522;
+    color: #000000;
     font-weight: bold;
-    text-shadow: 
-        -1px -1px 0 #fff, 
-        1px -1px 0 #fff, 
-        -1px 1px 0 #fff, 
-        1px 1px 0 #fff; /* White text stroke effect */
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     border: none;
@@ -116,7 +112,7 @@
 }
 
 .buttonInfo:hover {
-    background-color: #3D764A; /* Hover color */
+    background-color: #3D764A;
     transform: scale(1.05);
 }
 
