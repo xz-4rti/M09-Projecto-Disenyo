@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('../img/backgroundd.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.title,
+.buttons {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    width: 35vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.title h1 {
+    color: black;
+    font-size: 140px;
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -5px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    height: 40vh;
+}
+
+.buttonJuego {
+    width: 234px;
+    height: 75px;
+    background-color: #5B0202;
+    color: #000000;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonJuego:hover {
+    background-color: #A42424;
+    transform: scale(1.05);
+}
+
+.buttonJuego:active {
+    transform: scale(0.95);
+    box-shadow: 3px 3px 8px #000;
+}
+
+.buttonInfo {
+    width: 377px;
+    height: 104px;
+    background-color: #1C3522;
+    color: #000000;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonInfo:hover {
+    background-color: #3D764A;
+    transform: scale(1.05);
+}
+
+.buttonInfo:active {
+    transform: scale(0.95);
+    box-shadow: 3px 3px 8px #000;
+}
+
+.light {
+    width: 110px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.light:hover {
+    transform: scale(1.10);
+}
+
+.light:active {
+    transform: scale(0.95);
+}

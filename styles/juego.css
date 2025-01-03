@@ -1,0 +1,44 @@
+body{
+    background-color: #662727;
+    color: white;
+    padding: 30px;
+}
+
+
+.juegos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+.PofP{
+    display: flex; 
+    gap: 30px;
+}
+
+.RCaves{
+    display: flex;
+    gap: 30px;
+}
+
+.JetPac{
+    display: flex;
+    gap: 30px;
+}
+
+.LastNinja{
+    display: flex;
+    gap: 30px;
+}
+
+.juegos img{
+    width: 270px;
+    height: 400px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
